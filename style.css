@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* new year banner section start*/
+.common-height-width-for-sections{
+    width: 1320px;
+    height: 600px;
+    padding: 5rem;
+
+
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to bottom, black, transparent),url('./images/Banner\ Image.png');
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-gradient p, .bg-gradient h1 {
+
+    color: #ffffff;
+    z-index: 1;
+   font-size: 3rem;
+   padding: 0 25rem;
+   text-align: center;
+   
+}
+
+/* new year banner section end */
+
+
+/* discount section start */
+.ny-discount-sction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0;
+    padding: 5rem 0;
+}
+
+/* discount section end */
+
+
+/* party invitation section start */
+
+.party-invite-container{
+     width: 1320px;
+    height: 600px;
+    padding: 5rem;
+}
+
+
+
+.party-invite-description  {
+/* z-index: 1; */
+color: #ffffff;
+/* padding: 0 10rem; */
+display: flex;
+flex-direction: column;
+gap: 2rem 0;
+width: 50%;
+
+}
+
+.party-invite-description-about{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.party-invite-description a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.party-invite-description a:hover{
+    color: red;
+}
+
+.party-invite-section{
+     background-image: linear-gradient(to right, black, transparent), url('./images/Vectorrr.png');
+     height: 100%;
+     width: 100%;
+     border-radius: 0.5rem;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     /* padding: 0 5rem; */
+     background-repeat: no-repeat;
+     
+}
+
+/* party invite section end */
+
+
+/* party time & place section start */
+
+.party-time-place{
+     background-image: linear-gradient(to bottom, rgb(238, 160, 160), transparent);
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem 0;
+    border-radius: 1rem;
+   
+    
+}
+
+.party-time-place h3{
+    padding: 0.5rem 0;
+}
+
+.party-time-place button{
+    padding: 1rem 2rem;
+    background-color: red;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+    cursor:pointer;
+    
+   
+}
+
+.party-time-place button:hover{
+background-color: rgb(226, 158, 158);
+}
+
+
+/* party time & place section end */
+
+
+
+
+
+/* offer section start */
+
+
+.party-offers{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 0 3rem;
+padding: 2rem;
+align-items: center;
+background-image: linear-gradient(to right, rgb(242, 244, 249), transparent);
+box-shadow: 2px 3px 1px;
+border-radius: 0.5rem;
+     height: 100%;
+     width: 100%;
+     background-repeat: no-repeat;
+}
+
+.party-offer-info{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: start;
+    gap: 1rem 0;
+    
+}
+
+
+/* offer section start */
