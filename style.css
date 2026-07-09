@@ -11,7 +11,7 @@
 
 
 /* new year banner section start*/
-.common-height-width-for-sections{
+.common-height-width-for-sections {
     width: 1320px;
     height: 600px;
     padding: 5rem;
@@ -20,7 +20,7 @@
 }
 
 .bg-gradient {
-    background-image: linear-gradient(to bottom, black, transparent),url('./images/Banner\ Image.png');
+    background-image: linear-gradient(to bottom, black, transparent), url('./images/Banner\ Image.png');
     border-radius: 0.5rem;
     height: 100%;
     width: 100%;
@@ -33,21 +33,22 @@
 
 }
 
-.bg-gradient p, .bg-gradient h1 {
+.bg-gradient p,
+.bg-gradient h1 {
 
     color: #ffffff;
     z-index: 1;
-   font-size: 3rem;
-   padding: 0 25rem;
-   text-align: center;
-   
+    font-size: 3rem;
+    padding: 0 25rem;
+    text-align: center;
+
 }
 
 /* new year banner section end */
 
 
 /* discount section start */
-.ny-discount-sction{
+.ny-discount-sction {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,26 +62,26 @@
 
 /* party invitation section start */
 
-.party-invite-container{
-     width: 1320px;
+.party-invite-container {
+    width: 1320px;
     height: 600px;
     padding: 5rem;
 }
 
 
 
-.party-invite-description  {
-/* z-index: 1; */
-color: #ffffff;
-/* padding: 0 10rem; */
-display: flex;
-flex-direction: column;
-gap: 2rem 0;
-width: 50%;
+.party-invite-description {
+    /* z-index: 1; */
+    color: #ffffff;
+    /* padding: 0 10rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
+    width: 50%;
 
 }
 
-.party-invite-description-about{
+.party-invite-description-about {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -88,26 +89,27 @@ width: 50%;
 
 
 
-.party-invite-description a{
+.party-invite-description a {
     text-decoration: none;
     color: #ffffff;
-    
+
 }
-.party-invite-description a:hover{
+
+.party-invite-description a:hover {
     color: red;
 }
 
-.party-invite-section{
-     background-image: linear-gradient(to right, black, transparent), url('./images/Vectorrr.png');
-     height: 100%;
-     width: 100%;
-     border-radius: 0.5rem;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     /* padding: 0 5rem; */
-     background-repeat: no-repeat;
-     
+.party-invite-section {
+    background-image: linear-gradient(to right, black, transparent), url('./images/Vectorrr.png');
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0 5rem; */
+    background-repeat: no-repeat;
+
 }
 
 /* party invite section end */
@@ -115,11 +117,11 @@ width: 50%;
 
 /* party time & place section start */
 
-.party-time-place{
-     background-image: linear-gradient(to bottom, rgb(238, 160, 160), transparent);
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
+.party-time-place {
+    background-image: linear-gradient(to bottom, rgb(238, 160, 160), transparent);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,27 +129,27 @@ width: 50%;
     text-align: center;
     gap: 2rem 0;
     border-radius: 1rem;
-   
-    
+
+
 }
 
-.party-time-place h3{
+.party-time-place h3 {
     padding: 0.5rem 0;
 }
 
-.party-time-place button{
+.party-time-place button {
     padding: 1rem 2rem;
     background-color: red;
     color: #ffffff;
     border-style: none;
     border-radius: 5px;
-    cursor:pointer;
-    
-   
+    cursor: pointer;
+
+
 }
 
-.party-time-place button:hover{
-background-color: rgb(226, 158, 158);
+.party-time-place button:hover {
+    background-color: rgb(226, 158, 158);
 }
 
 
@@ -160,27 +162,26 @@ background-color: rgb(226, 158, 158);
 /* offer section start */
 
 
-.party-offers{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-gap: 0 3rem;
-padding: 2rem;
-align-items: center;
-background-image: linear-gradient(to right, rgb(242, 244, 249), transparent);
-box-shadow: 2px 3px 1px;
-border-radius: 0.5rem;
-     height: 100%;
-     width: 100%;
-     background-repeat: no-repeat;
+.party-offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 3rem;
+    padding: 2rem;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(242, 244, 249), transparent);
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
-.party-offer-info{
+.party-offer-info {
     display: flex;
     flex-direction: column;
-   
+
     align-items: start;
     gap: 1rem 0;
-    
+
 }
 
 
@@ -189,28 +190,40 @@ border-radius: 0.5rem;
 
 /* gift section start */
 
-.gift-pics img{
-    height: 100%;
-    width: 100%; 
-}
-.gift-pics{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-     gap: 3rem;
-     padding: 3rem;
-    
-    
-    /* width: 100%;
-    height: 100%; */
-   
+.gifts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(240, 235, 235), transparent);
+    border-radius: 5px;
 }
 
-.gift-description{
+.gift-pics img {
+    height: 100%;
+    width: 100%;
+}
+
+.gift-pics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 3rem;
+    /* justify-content: center;
+     align-items: center; */
+
+
+    width: 50%;
+    height: 50%;
+
+}
+
+.gift-description {
     display: flex;
     flex-direction: column;
     gap: 0.5rem 0;
     padding: 1rem;
-    
+
 }
 
 /* gift section end */
@@ -219,7 +232,14 @@ border-radius: 0.5rem;
 
 /* discount section start*/
 
-.new-year-discount-description{
+
+.new-year-discount {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem 0;
+}
+
+.new-year-discount-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,36 +252,40 @@ border-radius: 0.5rem;
     width: 100%; */
 }
 
-.new-year-discount-pics{
+.new-year-discount-pics {
     position: relative;
-    padding: 10rem 0;
-   
-   
+    padding: 4rem 0;
+    height: 100%;
+    width: 100%;
+
+
 }
 
 .discount-pic-1 {
     position: absolute;
-    bottom: 10rem;
-    
-    
+    bottom: 5rem;
+
+
+
 }
 
 .discount-pic-2 {
     position: absolute;
-   right: 2rem;
-   bottom: 23rem;
+    right: 2rem;
+    bottom: 18rem;
 }
 
-.discount-pic-0 img{
-    height: 10%;
+.discount-pic-0 img {
+    height: 100%;
     width: 100%;
 }
 
-.discount-pic-1 img{
+.discount-pic-1 img {
     height: 100%;
     width: 50%;
 }
-.discount-pic-2 img{
+
+.discount-pic-2 img {
     height: 100%;
     width: 50%;
 }
